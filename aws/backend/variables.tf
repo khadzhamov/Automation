@@ -6,7 +6,7 @@ variable "aws_region" {
 variable "state_bucket" {
   description = "S3 bucket for holding Terraform state files. Must be globally unique."
   type        = string
-  default     = "aws-terraform-state-backend"
+  default     = "aws-tfstate-bucket-backend-0"
 }
 
 variable "dynamodb_table" {
